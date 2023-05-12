@@ -1,8 +1,6 @@
 package socket;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.Socket;
 
 public class Configurations {
@@ -14,8 +12,8 @@ public class Configurations {
 
             // Do something with the socket here...
             // Get the output stream of the socket
-         return socket;
-           // socket.close(); // Close the socket when done
+            return socket;
+            // socket.close(); // Close the socket when done
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
             throw e;
